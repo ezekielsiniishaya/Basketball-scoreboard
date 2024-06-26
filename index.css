@@ -1,5 +1,11 @@
 * {
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://c4.wallpaperflare.com/wallpaper/243/973/115/basketball-texture-wallpaper-preview.jpg");
 }
 
 .container {
@@ -65,8 +71,8 @@
 #add-one-guest,
 #add-two-guest,
 #add-three-guest {
-    width: 43px;
-    height: 45px;
+    width: 40px;
+    height: 30px;
     border: 2px solid rgba(79, 148, 157, 1);
     border-radius: 5px;
     background-color: rgba(47, 105, 108, 1);
@@ -81,28 +87,93 @@
 }
 
 .home-buttons {
-    margin-left: 77px;
+    margin-left: 82px;
 }
 
 .guest-buttons {
     position: absolute;
     top: 0px;
-    left: 317px;
+    left: 322px;
+}
+
+#revert-home,
+#revert-guest {
+    font-family: "Comic Neue", cursive;
+    width: 65px;
+    height: 30px;
+    border: 2px solid rgba(79, 148, 157, 1);
+    border-radius: 5px;
+    background-color: rgb(27, 67, 70);
+    color: rgb(214, 60, 60);
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    margin-left: 3px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+#revert-home {
+    position: absolute;
+    top: 40px;
+    left: 110px;
+}
+
+#revert-guest {
+    position: absolute;
+    top: 40px;
+    left: 33px;
+}
+
+#revert-home:hover {
+    transform: scale(1.05);
+}
+
+#revert-guest:hover {
+    transform: scale(1.05);
+}
+
+#clear-botton:hover {
+    transform: scale(1.05);
+}
+
+#add-one-home:hover {
+    transform: scale(1.05);
+}
+
+#add-tow-home:hover {
+    transform: scale(1.05);
+}
+
+#add-three-home:hover {
+    transform: scale(1.05);
+}
+
+#add-one-guest:hover {
+    transform: scale(1.05);
+}
+
+#add-two-guest:hover {
+    transform: scale(1.05);
+}
+
+#add-three-guest:hover {
+    transform: scale(1.05);
 }
 
 #clear-botton {
     position: absolute;
-    top: 70px;
-    left: 218px;
+    top: 80px;
+    left: 225px;
     font-family: "Comic Neue", cursive;
     font-weight: 700;
     font-style: normal;
-    font-size: 20px;
+    font-size: 15px;
     background-color: rgba(12, 63, 66, 1);
     border: 4px solid rgba(4, 33, 31, 1);
     border-radius: 15px;
-    width: 113px;
-    height: 45px;
+    width: 90px;
+    height: 35px;
     color: rgba(255, 255, 255, 1);
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
