@@ -55,7 +55,7 @@ function revertHomeScore() {
   } else {
     scoreHome = 0;
     homeScoreHistory = [];
-    homeScore.innerText = 0;
+    homeScore.innerText = "00";
     console.log(homeScoreHistory);
   }
 }
@@ -69,7 +69,7 @@ function revertGuestScore() {
   } else {
     scoreGuest = 0;
     guestScoreHistory = [];
-    guestScore.innerText = 0;
+    guestScore.innerText = "00";
     console.log(guestScoreHistory);
   }
 }
